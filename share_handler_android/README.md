@@ -2,6 +2,11 @@
 
 This is an implementation of the `share_handler_platform_interface` package for Android.
 
+## Requirements
+
+- Flutter 3.44 / Dart 3.12 or later.
+- Enabling built-in Kotlin requires Flutter 3.47 or later.
+
 ## Usage
 
 ### With the `share_handler` plugin

@@ -1,3 +1,8 @@
+# Unreleased
+
+- Migrate Android builds to built-in Kotlin; require Flutter 3.44 and Dart 3.12 or later.
+- Update the shared example to Gradle 9.5.0 and AGP 9.3.1 with the local Android package and built-in Kotlin enabled.
+
 # 0.0.11
 Upgrade Android dependencies and tools
 Upgrade Gradle version to 8.11.1
