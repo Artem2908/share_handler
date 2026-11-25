@@ -13,9 +13,8 @@ Pod::Spec.new do |s|
   # s.license          = { :file => '../LICENSE' }
   s.author           = { 'Shout Social' => 'developer@shoutsocial.com' }
   s.source           = { :path => '.' }
-  s.source_files = 'Classes/**/*'
-  s.public_header_files = 'Classes/**/*.h'
-  s.platform = :ios, '9.0'
+  s.source_files = 'share_handler_ios_models/Sources/share_handler_ios_models/**/*.swift'
+  s.platform = :ios, '14.0'
 
   # Flutter.framework does not contain a i386 slice.
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }

@@ -34,3 +34,6 @@ build/
 
 example/android/app/bin/
 doc/
+.build/
+.swiftpm/
+share_handler_ios/ios/FlutterFramework/

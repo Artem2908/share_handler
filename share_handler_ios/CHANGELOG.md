@@ -1,3 +1,8 @@
+# Unreleased
+
+- Add Swift Package Manager support alongside CocoaPods for the plugin and its Flutter-independent share extension module.
+- Share the existing iOS sources between both integrations and require iOS 14, Flutter 3.44 and Dart 3.12 or later.
+
 # 0.0.15
 Fix for iOS 18
 Fix getFileName function to handle duplicate filenames

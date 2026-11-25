@@ -32,6 +32,8 @@ dependencies:
   cupertino_icons: ^1.0.2
 
 dependency_overrides:
+  share_handler_ios:
+    path: ../../share_handler_ios
   share_handler_android:
     path: ../../share_handler_android
 
